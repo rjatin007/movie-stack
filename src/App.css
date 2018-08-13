@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+nav{
+  display : flex;
+  justify-content: space-around;
+  text-align: center;
+  align-content: center;
+  background-color: blueviolet;
+  box-shadow: 0 2px 2px 2px #ccc;
+  color : white;
+  height: 80px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav h1{
+  margin : auto 40px;
+  margin-left: 10px;
+}
+.nav-link{
+  text-align: center;
+  padding:20px 0 ;
+  color : #eee;
+  text-decoration: none;
+
+}
+.container{
+  margin : 20px;
+
+}
+.upcoming{
+  border: 1px solid rgb(186, 106, 223);
+    border-radius: 25px;
+    color : white;
+    background-color:blueviolet;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    margin-right : 50px;
+    cursor: pointer;
+}
+.upcoming-nav{
+  display: flex;
+  justify-content: flex-end;
+}

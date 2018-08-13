@@ -1,0 +1,65 @@
+.movie-details{
+    width : 800px;
+    border : 1px solid  rgb(186, 106, 223);
+    margin : 20px;
+    border-radius: 5%;
+}
+.movie-details-container{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+}
+.title-header{
+    height : 100px;
+    margin :10px;
+}
+.movie-details h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.movie-details h3{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.movie-details .details{
+    display: flex;
+    justify-content: space-around;
+}
+.movie-details .details p{
+    color : rgb(139, 109, 173);
+}
+.movie-details  .genre-details{
+    display: flex;
+    justify-content: space-around;
+    padding : 5px;
+}
+.movie-details .genre{
+    border: 1px solid rgb(186, 106, 223);
+    border-radius: 25px;
+    color : blueviolet;
+    padding: 5px;
+}
+.movie-details .description{
+    width: 600px;
+    padding: 50px;
+
+}
+.movie-details .description p{
+    text-align: justify;
+    margin: auto;
+    color: rgb(129, 90, 219)
+}
+.back {
+    border: 1px solid rgb(186, 106, 223);
+    border-radius: 25px;
+    color : white;
+    background-color:blueviolet;
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.back-nav{
+    display: flex;
+    justify-content: center;
+}

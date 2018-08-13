@@ -1,0 +1,22 @@
+.list-movies h1{
+    /* color: rgb(116, 48, 172); */
+    color: #3f1dcb;
+    font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+}
+.list-movies hr{
+    display: block;
+
+    box-shadow: 0 0.5px 0.5px rgb(207, 170, 238);
+    border : 1px solid  rgb(207, 170, 238);
+}
+.movies-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.list-movies-header {
+    display: flex;
+    justify-content: space-evenly;
+}

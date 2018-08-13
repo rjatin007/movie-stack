@@ -1,0 +1,38 @@
+.movie-card{
+    height : 500px;
+    width : 400px;
+    padding:5px;
+    border :  0.5px solid rgb(204, 174, 230);
+    box-shadow: 0px 2px 3px rgb(186, 106, 223);
+    margin :  20px;
+
+}
+.image-container {
+    width : 380px;
+    height : 300px;
+    margin : 10px auto;
+    padding: 0;
+}
+.image-container img{
+    height : 300px;
+    width : 380px;
+
+}
+.details-container {
+    width : 280px;
+    height : 150px;
+    margin : 10px auto;
+
+}
+.movie-details-nav{
+    border: 1px solid rgb(186, 106, 223);
+    border-radius: 25px;
+    color : white;
+
+    background-color:blueviolet;
+    padding: 10px;
+    margin: 0px;
+
+    text-decoration: none;
+    cursor:pointer;
+}
